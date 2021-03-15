@@ -5,7 +5,7 @@ node{
         checkout scm
     }
     stage(){
-        app = docker.build('alexo0001/DevOpsUseCase1')
+        app = docker.build('alexo0001/DevOpsUsecase1')
     }
     stage('test image'){
         app.inside(
